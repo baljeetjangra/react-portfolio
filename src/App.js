@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import {CssBaseline} from '@material-ui/core';
 import Home from './components/index';
 import { ThemeProvider } from '@material-ui/core/styles';
@@ -9,7 +10,7 @@ function App() {
     <>
         <ThemeProvider theme={theme}>
     <CssBaseline />
-      <Home />
+      <Home color='secondary'/>
       </ThemeProvider>
       
     </>

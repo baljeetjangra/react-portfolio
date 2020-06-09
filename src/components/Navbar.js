@@ -22,7 +22,7 @@ import {
     ContactMail,
 } from '@material-ui/icons';
 import HomeIcon from '@material-ui/icons/Home';
-import avatar from '../baljeet.jpg'
+import avatar from '../profile.jpg'
 
 
 
